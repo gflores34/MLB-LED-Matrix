@@ -19,8 +19,19 @@ export async function setActiveGames(){
 
         const homeResponse = await mlbStats.getTeamFullName(gamesResponse[i], "home");
         const awayResponse = await mlbStats.getTeamFullName(gamesResponse[i], "away");
+        
+        const gameOverResponse = await mlbStats.gameOver(gamesResponse[i]);
+        const gameStartTimeResponse = await mlbStats.getGameStartTime(gamesResponse[i]);
 
-        opt.innerHTML = awayResponse + " at " + homeResponse;
+        if(gameOverResponse === "F"){
+            opt.innerHTML = awayResponse + " at " + homeResponse + " ***FINAL***";
+        } else if (gameOverResponse === "I") {
+            opt.innerHTML = awayResponse + " at " + homeResponse + " ***In Progress***";
+        } else if (gameOverResponse === "P" || gameOverResponse === "S"){
+            opt.innerHTML = awayResponse + " at " + homeResponse + " ***START TIME: " + gameStartTimeResponse + "***"; 
+        }
+        
+
         select.appendChild(opt);
     }
 }

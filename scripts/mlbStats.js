@@ -16,6 +16,26 @@ export async function getGames(){
 
 }
 
+export async function gameOver(gamePk){
+    const response = await fetch('https://statsapi.mlb.com//api/v1.1/game/' + gamePk + '/feed/live');
+    const jsonData = await response.json();
+
+    let result = jsonData.gameData.status.codedGameState;
+
+
+    return result;
+}
+
+export async function getGameStartTime(gamePk){
+    const response = await fetch('https://statsapi.mlb.com//api/v1.1/game/' + gamePk + '/feed/live');
+    const jsonData = await response.json();
+
+    let result = jsonData.gameData.datetime.time;
+
+
+    return result;
+}
+
 
 export async function getInning(gamePk){
     
