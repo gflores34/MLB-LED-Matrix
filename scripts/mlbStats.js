@@ -1,5 +1,5 @@
-
-let gameId = "718446";
+//let gameId = "718446";
+//Used this game for testing
 
 export async function getGames(){
     
