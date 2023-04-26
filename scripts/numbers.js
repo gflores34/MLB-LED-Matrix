@@ -1,4 +1,3 @@
-import * as leds from "./led.js";
 
 export function getNumber(array, number, startingRow, startingColumn){
 
