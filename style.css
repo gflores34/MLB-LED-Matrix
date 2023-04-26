@@ -10,14 +10,18 @@ body {
   }
   
   .base {
-    display: inline-block;
+    /*display: inline-block;*/
+    margin-left: 100px;
+    margin-top: 25px;
     border: 10px groove gray; 
     border-right: 10px ridge gray;
     border-bottom: 10px ridge gray;
     padding: 10px;
     background-color: #BBBBBB;
-    position: absolute;
+    position:static;
     text-align: center;
+    float:left;
+    clear:both;
   }
   
   .matrix {
