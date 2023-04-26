@@ -12,13 +12,11 @@ export function homeTeam(array, firstLetter, secondLetter, thirdLetter){
 }
 
 export function homeScore(array, score){
-    var score = this.score;
     
     if(score === undefined){
         score = 0;
     } else {
         var numberArray = Array.from(score.toString()).map(Number);
-        score = 0;
     }
 
     if(score.toString().length > 1){
@@ -41,13 +39,11 @@ export function awayTeam(array, firstLetter, secondLetter, thirdLetter){
 }
 
 export function awayScore(array, score){
-    var score = this.score;
     
     if(score === undefined){
         score = 0;
     } else {
         var numberArray = Array.from(score.toString()).map(Number);
-        score = 0;
     }
 
     if(score.toString().length > 1){
