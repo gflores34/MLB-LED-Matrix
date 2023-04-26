@@ -28,7 +28,7 @@ export async function setActiveGames(){
         } else if (gameOverResponse === "I") {
             opt.innerHTML = awayResponse + " at " + homeResponse + " ***In Progress***";
         } else if (gameOverResponse === "P" || gameOverResponse === "S"){
-            opt.innerHTML = awayResponse + " at " + homeResponse + " ***START TIME: " + gameStartTimeResponse + "***"; 
+            opt.innerHTML = awayResponse + " at " + homeResponse + " ***START TIME: " + gameStartTimeResponse + " EST***"; 
         }
         
 
