@@ -6,7 +6,7 @@
 
 
 
-[Try it out here](https://gflores34.github.io/ "TRY ME")
+[Try it out here](https://gflores34.github.io/MLB-LED-Matrix/ "TRY ME")
 
 
 An LED matrix that will update with current MLB scores
