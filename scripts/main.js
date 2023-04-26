@@ -23,7 +23,7 @@ const interval = setInterval(function() {
 
 //Handler for selecting game        
 function changeHandler(){
-    
+    leds.clearM();
     var gamePk =  games.value;
 
     main(gamePk)
@@ -35,8 +35,6 @@ function changeHandler(){
 async function main(gamePk){
   
     var ons = new Array();
-
-    leds.clearM();
 
     //Get and Set inning
     const inningResponse = await mlbStats.getInning(gamePk);
