@@ -10,7 +10,6 @@ body {
   }
   
   .base {
-    /*display: inline-block;*/
     margin-left: 100px;
     margin-top: 25px;
     border: 10px groove gray; 
