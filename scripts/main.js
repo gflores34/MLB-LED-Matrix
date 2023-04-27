@@ -23,7 +23,7 @@ const interval = setInterval(function() {
 
 //Handler for selecting game        
 function changeHandler(){
-    leds.clearM();
+    //leds.clearM();
     var gamePk =  games.value;
 
     main(gamePk)
@@ -80,7 +80,8 @@ async function main(gamePk){
 
     score.awayTeam(ons, awayTeamNameResponse.charAt(0), awayTeamNameResponse.charAt(1), awayTeamNameResponse.charAt(2));
     score.awayScore(ons, awayTeamRuns);
-
+    
+    leds.clearM();
     leds.write (ons);
 
 }
