@@ -82,7 +82,7 @@ export function getLetter(array, letter, startingRow, startingColumn){
         case 'z': z(array, startingRow, startingColumn);
                   break;
 
-        default: error(array, startingRow, startingColumn);
+        default: console.log("Letter error: " + letter);
     }
 }
 
