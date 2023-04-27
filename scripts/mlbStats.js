@@ -106,9 +106,9 @@ export async function getTeamName(gamePk, team){
 
 
     if(team === "home"){
-        return jsonData.gameData.teams.home.teamCode;
+        return jsonData.gameData.teams.home.abbreviation;
     } else {
-        return jsonData.gameData.teams.away.teamCode;
+        return jsonData.gameData.teams.away.abbreviation;
     }
 }
 
