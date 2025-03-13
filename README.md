@@ -4,7 +4,7 @@
 
 This project is a web application that displays live MLB scores in a dynamic, LED matrix format. It utilizes real-time data from the MLB-STATS-API to provide up-to-date game information.
 
-** See it in action:** [https://gflores34.github.io/MLB-LED-Matrix/](https://gflores34.github.io/MLB-LED-Matrix/)
+[See it in action](https://gflores34.github.io/MLB-LED-Matrix/)
 
 ## Features
 
