@@ -40,7 +40,7 @@ Contributions are welcome! If you have any ideas for improvements or bug fixes, 
 
 ## Author
 
-* Gerardo Flores - \https://github.com/gflores34
+* Gerardo Flores - https://github.com/gflores34
 
 ---
 
