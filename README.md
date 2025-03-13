@@ -24,7 +24,7 @@ This project is a web application that displays live MLB scores in a dynamic, LE
 1.  Clone the repository:
 
     ```bash
-    git clone [Your Repository URL]
+    git clone https://github.com/gflores34/MLB-LED-Matrix
     ```
 
 2.  Open `index.html` in your web browser.
