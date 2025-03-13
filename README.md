@@ -1,26 +1,50 @@
 # MLB LED Matrix
 
+## Overview
 
-![image](https://user-images.githubusercontent.com/63570510/234607759-92e5acd2-edcd-422e-ac62-f06610227b25.png)
+This project is a web application that displays live MLB scores in a dynamic, LED matrix format. It utilizes real-time data from the MLB-STATS-API to provide up-to-date game information.
 
+## Features
 
+* **Live MLB Score Updates:** Fetches and displays current scores, inning information, and game status.
+* **Dynamic LED Matrix Display:** Presents scores in a visually appealing, retro-style LED matrix.
+* **Team Selection:** Allows users to select specific teams to follow.
+* **Responsive Design:** Adapts to various screen sizes and devices.
 
+## Technologies Used
 
-[Try it out here](https://gflores34.github.io/MLB-LED-Matrix/ "TRY ME")
+* **JavaScript:** For application logic and API interaction.
+* **CSS:** For styling and visual presentation of the LED matrix.
+* **HTML:** For structuring the web page.
+* **MLB-STATS-API:** To retrieve real-time MLB data.
+* **Git:** For version control.
 
+## Installation
 
-An LED matrix that will update with current MLB scores
+1.  Clone the repository:
 
-Will display this info:
-  - which bases are loaded
-  - inning outs
-  - at bat strikes
-  - at bat balls
-  - frame
-  - inning number
-  - team names (abbreviated)
-  - team scores
+    ```bash
+    git clone [Your Repository URL]
+    ```
 
+2.  Open `index.html` in your web browser.
 
-got css and initial led setup from this
-https://codepen.io/djan/pen/gOWdqo
+## Usage
+
+* The application will automatically display live MLB scores.
+* Use the team selection feature (if implemented) to filter scores.
+
+## Contributing
+
+Contributions are welcome! If you have any ideas for improvements or bug fixes, please submit a pull request.
+
+## Author
+
+* Gerardo Flores - \[https://github.com/gflores34]
+
+## License
+
+\[MIT License]
+
+---
+
